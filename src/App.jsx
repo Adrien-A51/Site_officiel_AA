@@ -7,8 +7,8 @@ import Banner from "./components/Banner/Banner";
 import Home from './pages/Home/Home';
 // Page Apropos
 import Apropos from "./pages/Apropos/Apropos";
-// Page Logement
-import Logements from "./pages/Logements/Logement"
+// Page Contact
+import Contact from "./pages/Contact/Contact"
 // Erreur 404
 import Error from "./components/Error/Error";
 // Footer
@@ -20,7 +20,7 @@ export default function App() {
   <Banner/>
   <Routes>
     <Route path="/" element={<Home/>} />
-    <Route path="/logement/:id" element={<Logements />} />
+    <Route path="/Contact" element={<Contact />} />
     <Route path="/Apropos" element={<Apropos />} />
     <Route path="*" element={<Error />} />
   </Routes>

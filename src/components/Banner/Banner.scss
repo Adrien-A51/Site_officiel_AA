@@ -5,13 +5,16 @@
     margin: 40px 100px 40px 100px;
     font-family: 'Montserrat';
     font-size: 24px;
+    img{
+        width: 400px;
+    }
     nav{
         display: flex;
         gap: 57px;
         list-style: none;
     }
     nav a{
-        color: #FF6060;
+        color: #2952A0;
         text-decoration: none;
     }
     nav a:hover{
