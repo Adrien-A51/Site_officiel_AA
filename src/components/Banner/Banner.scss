@@ -1,29 +1,40 @@
 .header{
     align-items: center;
     display: flex;
+    background-color: lightgrey;
     justify-content: space-between;
-    margin: 40px 100px 40px 100px;
-    font-family: 'Montserrat';
-    font-size: 24px;
+    //margin: 40px 100px 40px 100px;
+    padding: 10px 100px 10px 100px;
+    height: 56px;
+    border-bottom: solid 2px #2952A0;
+    font-family: 'Rufina';
+    font-size: 21px;
     img{
-        width: 400px;
+        width: 280px;
     }
     nav{
         display: flex;
-        gap: 57px;
+        //gap: 57px;
         list-style: none;
+        text-align: center;
     }
     nav a{
-        color: #2952A0;
+        color: white;
         text-decoration: none;
+        transition: all 1s;
+        width: 100px;
+        padding: 25px;
     }
     nav a:hover{
-        text-decoration: underline;
+        background-color: #909090;
+        transition: all 1s;
     }
     nav a.active{
-        text-decoration: underline;
+        background-color: #2952A0;
     }
 }
+
+
 
 /* format mobile min 500px */
 @media screen and (max-width: 600px) {

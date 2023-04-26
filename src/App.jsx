@@ -16,10 +16,13 @@ import Error from "./components/Error/Error";
 // Footer
 import Footer from './components/Footer/Footer';
 
+import Fleche from "./components/Fleche/Fleche";
+
 export default function App() {
   return (
 <div className="App">
   <Banner/>
+  <Fleche/>
   <Routes>
     <Route path="/" element={<Home/>} />
     <Route path="/Apropos" element={<Apropos />} />

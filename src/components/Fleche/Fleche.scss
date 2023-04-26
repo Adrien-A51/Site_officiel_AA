@@ -1,0 +1,19 @@
+.Fleche{
+    position: fixed;
+    .scroll-to-top {
+        background-color: #2952A0;
+        right: 40px;
+        bottom: 40px;
+        position: fixed;
+        z-index: 2;
+        cursor: pointer;
+        border-radius: 7px;
+        width: 60px;
+        height: 60px;
+        box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28);
+        border: solid 1px #d3d3d3;
+        svg{
+        transform: rotate(0deg);
+    }
+    }
+}

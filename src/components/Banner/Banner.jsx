@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import './Banner.scss'
-import logo_AA from './images/logo-aa-info-texte.png'
+import logo_AA from './images/logo-aa-infographiste.png'
 
 export default function Header() {
   return (<>
@@ -12,5 +12,5 @@ export default function Header() {
         <NavLink to="/Contact">Contact</NavLink>
       </nav>
     </div>
-    </>)
+  </>)
 }
