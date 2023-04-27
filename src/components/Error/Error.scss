@@ -1,8 +1,9 @@
 .Error{
-    margin-bottom: 100px;
+    margin: 92px 0 95px 0;
     text-align: center;
-    color: #FF6060;
-    font-family: 'Montserrat';
+    color: #2952A0; 
+    font-family: 'Rufina';
+    font-size: 250px;
     h1{
     font-size: 288px;
     margin-bottom: 0;
@@ -14,11 +15,19 @@
     margin-bottom: 100px;
     }
     a{
-    color: #FF6060;
+    color: #2952A0;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     }
+    .faBomb{
+        color: #2952A0;
+        transition: all 1s;
+    &:hover{
+        color:  #FF6060;
+        transition: all 1s;
+    }
+}
 }
 
 /* format mobile min 500px */

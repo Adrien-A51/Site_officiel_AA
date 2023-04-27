@@ -6,7 +6,7 @@ export default function Footer() {
     return (<>
 
     <div className='footer'>
-    <p><Link to="/"><img src={Logo_2} alt='Logo_AA'/></Link><br></br>
+    <p><Link to="/"><img src={Logo_2} alt='Logo_AA'/></Link>
     Adrien Abdalalim - Développeur Web & React</p>
     <nav>
         <NavLink to="/">Accueil</NavLink>

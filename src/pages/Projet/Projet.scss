@@ -1,21 +1,12 @@
 @mixin Font {
     font-family: 'Montserrat';
     font-weight: 500;
-    color: #FF6060;
+    color: #2952A0;
 }
 
 .container{
     margin: 0 100px 40px 100px;  
 }
-
-.container_collapse{
-   display: flex;
-   gap: 60px;
-}
-
-.container_panel{
-    width: 582px;
- }
 
  .flex{
     display: flex; 
@@ -23,45 +14,9 @@
     justify-content: space-between; 
 }
 
-
-.flex_2{
-    display: flex; 
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 10px; 
-}
-
 .title{
     @include Font;
     font-size: 36px;
-}
-
-.location{
-    @include Font;
-    font-size: 18px;
-}
-
-.hostname{
-    @include Font; 
-    font-size: 18px;
-    text-align: right;
-    margin-top: 0;
-    margin-left: 45px;
-    width: 160px;
-
-}
-
-.picture{
-    height: 64px;
-    width: 64px;
-    border-radius: 32px; 
-}
-
-.img{
-    width: 1240px;
-    height: 415px;
-    border-radius: 25px;
-    background-color: gray; 
 }
 
 .description{
@@ -70,14 +25,6 @@
     font-weight: 400; 
     //color: #fff;
 }
-
-
-.tagContainer {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 25px;
-}
-
 /* format mobile min 500px */
 @media screen and (max-width: 600px) {
     .img{
@@ -90,27 +37,7 @@
     .title{
         font-size: 18px;
     }
-    .location{
-        font-size: 14px;
-    }
-    .hostname{
-        width: 93px;
-    }
     .flex{
         display: block;
-    }
-    .flex_2{
-        justify-content: right;
-    }
-    .container_collapse{
-        display: block;
-    }
-    .container_panel{
-        width: 100%;
-     }
-     .picture{
-        height: 50px;
-        width: 50px;
-        border-radius: 25px; 
     }
 }
